@@ -1,8 +1,9 @@
 import axios from "axios";
 
+const url = "http://42.192.224.189:9091";
 //创建axios实例
 const service = axios.create({
-    baseURL: "http://42.192.224.189:9091",
+    baseURL: url,
     //超时时间
     timeout: 15000,
 });
